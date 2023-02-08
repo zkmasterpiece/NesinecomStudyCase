@@ -10,13 +10,13 @@
 • Futbol tabı seçilir. ✔
 
 • (Post) /Iddaa/GetPopularBets servisi tetiklenerek, sayfada bulunan tüm 
-etkinlikler için "Kod" ve "Oynanma" sayılarının doğruluğu kontrol edilir. 
+etkinlikler için "Kod" ve "Oynanma" sayılarının doğruluğu kontrol edilir. ❌
 
     o Request Payload: {"eventType":1,"date":null}
     
     o PlayedCount: Oynanma Sayısı
   
-    o MarketNo: Kod ❌
+    o MarketNo: Kod 
   
   
 • Hesabım butonuna tıklanır ve "Çıkış" işlemi gerçekleştirilir. ✔
