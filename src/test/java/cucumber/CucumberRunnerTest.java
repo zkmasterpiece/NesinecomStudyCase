@@ -7,7 +7,7 @@ import io.cucumber.testng.CucumberOptions;
 
 
 
-@CucumberOptions(plugin= {"pretty","io.qameta.allure.cucumber7jvm.AllureCucumber7Jvm"},features = "src/test/java/resources", glue = "src/test/java/cucumber")
+@CucumberOptions(features = {"src/test/java/cucumber"}, glue = {""})
 public class CucumberRunnerTest extends AbstractTestNGCucumberTests{
 	@Override
 	@DataProvider(parallel = true)

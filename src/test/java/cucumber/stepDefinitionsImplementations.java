@@ -16,8 +16,6 @@ public class stepDefinitionsImplementations extends BaseTest {
 	public PopularBetsPage popularBetsPage;
 	BaseTest bt;
 
-	String username;
-
 	@Given("Nesine.com adresine giriş yapılır.")
 	public void Nesine_com_adresine_giris_yapilir() throws IOException {
 		landingPage = launchApp();
@@ -59,6 +57,7 @@ public class stepDefinitionsImplementations extends BaseTest {
 
 	@Given("Browser Kapatılır.")
 	public void Browser_Kapatilir() {
+		
 		popularBetsPage.closeBrowser();
 	}
 

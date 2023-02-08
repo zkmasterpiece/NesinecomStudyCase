@@ -102,6 +102,7 @@ public class PopularBetsPage extends CommonMethod {
 	}
 
 	public void closeBrowser() {
+		waitSeconds(3);
 		driver.close();
 	}
 
